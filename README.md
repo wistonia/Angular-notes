@@ -20,6 +20,8 @@ Install the express generator and create a new project by typing `express bb`
 
 This will generate a basic express application. `cd` into the bb folder and run `npm install`
 
-npm will look for the package.json file in the current folder and retrieve the packages listed within package.json and install them in a node\_modules folder. These are the libraries that allow your application to run. There are many dependencies within these libraries and this results in two issues. Firstly, it's possible for a particular version of a library to break your application. Google 'semver' for information on what package version number mean. Secondly, in Microsoft Windows the large number of deeply nested folders is incompatible with the built-in file commands making it difficult to work with the node\_modules folder.
+npm will look for the `package.json` file in the current folder and retrieve the packages listed within package.json and install them in a `node\_modules` folder. These are the libraries that allow your application to run. There are many dependencies within these libraries and this results in two issues. Firstly, it's possible for a particular version of a library to break your application. Google 'semver' for information on what package version number mean. Secondly, in Microsoft Windows the large number of deeply nested folders is incompatible with the built-in file commands making it difficult to work with the node\_modules folder.
 
 Despite the issues with package management this is an established way to provide a rich programming environment with minimal effort.
+
+On to [Step 1](https://github.com/wistonia/Angular-notes/blob/master/Step1.md).
